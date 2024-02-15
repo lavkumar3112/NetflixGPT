@@ -2,6 +2,9 @@
 
 - Create React App
 - Configured TailwindCSS
+- Header
+- Login form
+- SignUp Form
 
 
 
@@ -22,3 +25,6 @@
 - NetflixGPT
     - Search Bar
     - Movie Suggestions
+
+# Libraries
+- Formik
