@@ -15,7 +15,13 @@
 - Created Redux Store with userSlice
 - Implemented signout
 - update Profile
-- fetch from tmdb movies
+- Bug fix : SignUp user displayName and profile picture update
+
+- Bug fix:- if user is not logged in Redirect/browse to login page and vice versa
+- Unsubscribed to the onAuthStateChanged state.
+- Add harcoded values to the constants.js
+- Register for tmdb api & create an app & get access token
+- Get data from tmdb now playing movies list
 
 
 
