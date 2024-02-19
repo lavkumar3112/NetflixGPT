@@ -35,6 +35,10 @@
 - tmdb Image CDN URL
 - Made browse page look perfect with tailwind css
 - usePopularMovies , useTopRateMovies,useUpcomingMovies custom hooks
+- GPT Search Page
+- GPT Search Bar
+- (Bonus Feature)MultiLanguage Feature in our App
+- GPT API Integration ()
 
 
 

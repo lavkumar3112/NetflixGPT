@@ -10,9 +10,11 @@ export const API_OPTIONS = {
         }
       };
 
-export const NOW_PLAYING_API_ENDPOINT = "https://api.themoviedb.org/3/movie/now_playing?language=en-US&page=1"
-export const POPULAR_API_ENDPOINT = "https://api.themoviedb.org/3/movie/popular?language=en-US&page=1"
-export const TOP_RATE_API_ENDPOINT = "https://api.themoviedb.org/3/movie/top_rated?language=en-US&page=1"
-export const UPCOMING_API_ENDPOINT = "https://api.themoviedb.org/3/movie/upcoming?language=en-US&page=1"
+export const NOW_PLAYING_API_ENDPOINT = "https://api.themoviedb.org/3/movie/now_playing?page=1"
+export const POPULAR_API_ENDPOINT = "https://api.themoviedb.org/3/movie/popular?page=1"
+export const TOP_RATE_API_ENDPOINT = "https://api.themoviedb.org/3/movie/top_rated?page=1"
+export const UPCOMING_API_ENDPOINT = "https://api.themoviedb.org/3/movie/upcoming?page=1"
 
 export const IMG_CDN_URL="//https://image.tmdb.org/t/p/w500";
+
+export const SUPPORTED_LANGUAGE = [{identifier: "en",name:"English"},{identifier: "hindi",name:"Hindi"},{identifier: "spanish",name:"Spanish"}];

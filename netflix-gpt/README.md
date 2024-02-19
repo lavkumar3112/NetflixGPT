@@ -22,6 +22,7 @@
 - Add harcoded values to the constants.js
 - Register for tmdb api & create an app & get access token
 - Get data from tmdb now playing movies list
+- 
 
 
 
