@@ -6,7 +6,7 @@ export const API_OPTIONS = {
         method: 'GET',
         headers: {
           accept: 'application/json',
-          Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2OGM2NjczN2I0YWYwZmVhOTlmODlhYWZhYjk1YzM1YyIsInN1YiI6IjY1ZDA2ZTZmMzRlMTUyMDE4OGIwMGQ3YyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.6CHLWqFvZzGbVSZ-rh-WsydztLYzc-8P6pC4gXCzLW4'
+          Authorization: 'Bearer '+ process.env.REACT_APP_TMDB_KEY,
         }
       };
 
@@ -18,3 +18,5 @@ export const UPCOMING_API_ENDPOINT = "https://api.themoviedb.org/3/movie/upcomin
 export const IMG_CDN_URL="//https://image.tmdb.org/t/p/w500";
 
 export const SUPPORTED_LANGUAGE = [{identifier: "en",name:"English"},{identifier: "hindi",name:"Hindi"},{identifier: "spanish",name:"Spanish"}];
+
+export const OPENAI_KEY = process.env.REACT_APP_OPENAI_KEY;

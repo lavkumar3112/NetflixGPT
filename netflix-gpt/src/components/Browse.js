@@ -15,20 +15,20 @@ import { useSelector } from 'react-redux';
 const Browse = () => {
   const showGptSearch=useSelector(store=>store.gpt.showGptSearch);
 
-    // useNowPlayingMovies();
-    // usePopularMovies();
-    // useTopRatedMovies();
-    // useUpcomingMovies();
+    useNowPlayingMovies();
+    usePopularMovies();
+    useTopRatedMovies();
+    useUpcomingMovies();
 
 
   return (
     <div>
       <Header/>
-      <GptSearch/>
-      {/* {
+      {/* <GptSearch/> */}
+      {
         showGptSearch ?(<GptSearch/> ):( <> <MainContainer/>
       <SecondaryContainer/> </>
-      )} */}
+      )}
       
       {/* <MainContainer/>
       <SecondaryContainer/> */}
