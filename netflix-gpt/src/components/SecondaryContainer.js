@@ -13,7 +13,6 @@ const SecondaryContainer = () => {
       {movies.nowPlayingMovies && <MovieList title="Top rated" movies={movies?.topRatedMovies}/>}
       {movies.nowPlayingMovies && <MovieList title="Popular" movies={movies?.popularMovies}/>}
       {movies.nowPlayingMovies && <MovieList title="Upcoming movies" movies={movies?.upcomingMovies}/>}
-      {/* <MovieList title={"Horror Movies"} movies={movies.nowPlayingMovies}/> */}
       </div>
     </div>
   )
